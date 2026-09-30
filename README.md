@@ -10,8 +10,8 @@ $ ssh -Y <computing_id>@login.hpc.virginia.edu
 
 ```
 $ cd /scratch/<computing_id>    # use scratch, not home (more space)
-$ git clone https://github.com/kangyans/CMRxRecon.git
-$ cd CMRxRecon
+$ git clone <your_project>.git
+$ cd <your_project>
 ```
 But if you store your *.py* files under /scratch/<computing_id>, you are at the risk of the removal of the data & scripts after 90 days.
 
